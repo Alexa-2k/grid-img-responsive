@@ -70,3 +70,20 @@ main{
     background-image: url(../img/99820.jpg);
 }
 
+.link{
+    margin:20px 0px;
+}
+
+.link a{
+    padding: .375rem .75rem;
+    background-color: rgba(255, 68, 0, 0.829);
+    border-radius: .25rem;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.link a:hover{
+    background-color: rgb(255, 68, 0);
+
+}
