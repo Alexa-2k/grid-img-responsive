@@ -1,0 +1,72 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: aliceblue;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.container{
+   
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+
+    /* Permite que las columnas sean responsives 
+    la funcino minmax, permite establece un valor minimo y maximo a las columnas
+    dependiendo del tamaño de la pantalla */
+    
+    grid-template-columns: repeat(auto-fill,minmax(15em,1fr));
+    gap: 10px;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+
+.box img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 2px solid blueviolet;
+}
+
+.box .texto{
+    margin: 0px 10px;
+}
+
+.texto h2{
+    color: darkslateblue;
+}
+
+.pt-5{
+    padding-top: 5px;
+}
+
+
+/* Se especifica un min height al contenedor de la imagen para que se pueda visualizar */
+.img-bg{
+    min-height: 25vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid dodgerblue;
+}
+
+/* Se especifican las url de las imagenes para cada div */
+.bg-1{
+    background-image: url(../img/99791.jpg);
+}
+
+.bg-2{
+    background-image: url(../img/99785.jpg);
+}
+
+.bg-3{
+    background-image: url(../img/99820.jpg);
+}
+
